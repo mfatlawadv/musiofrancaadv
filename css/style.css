@@ -1,0 +1,1839 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Background */
+body {
+    background-image: url(/img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Abhaya Libre";
+    width: 100%;
+    
+}
+
+.inicial {
+    color: white;
+    padding: 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.inicial .titulo h1 {
+    margin-top: 6%;
+    font-size: 300%; 
+}
+
+.apresentacao {
+    margin-top: 20%;
+}
+.apresentacao .swiper {
+    width: 100%;
+    min-height: auto;
+  }
+
+.apresentacao  .swiper-slide {
+    background: black;
+    color: white;
+    display: flex;
+    min-height: auto;
+    overflow: hidden;
+    justify-content: flex-end;
+
+  }
+
+.apresentacao .descricao h1 {
+    padding: 2%;
+}
+.apresentacao  .swiper-slide p {
+    font-size: 160%;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 15%;
+  }
+
+.apresentacao .swiper-slide img {
+    display: block;
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10%;
+  }
+  
+.apresentacao .swiper-slide .item  {
+        height: auto;
+
+        display: inline-block;
+        margin: 2px;
+        margin-bottom: 2%;
+    }
+
+.apresentacao .swiper-slide .imagem {
+    width: 30%;
+    align-items: center;
+}
+.apresentacao .swiper-slide .OAB {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+.apresentacao .swiper-slide .imagem h1 {
+    margin-top: 2%;
+    font-size: 180%;
+    text-align: center;
+}
+.apresentacao .swiper-slide .descricao {
+    width: 70%;
+}
+.apresentacao  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+
+/** aqui é os sliders de serviços */
+.servicos {
+    margin-top: 3%;
+}
+ .servicos .swiper {
+    width: 100%;
+    min-height: auto;
+    
+  }
+
+ .servicos .swiper-slide {
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    justify-content: flex-end;
+
+  }
+
+.servicos  .swiper-slide p {
+    font-size: 160%;
+    margin-left: -2%;
+    margin-right: 15%;
+    font-weight: lighter;
+    color: #181515;
+    padding-left: 6%; 
+   /* text-indent: 5%;*/
+  }
+
+.servicos .service_topic {
+    font-size: 160%;
+    margin-left: 2%;
+    margin-right: 15%;
+    font-weight: lighter;
+    color: #181515;
+    padding-left: 6%;
+}
+  
+
+.servicos .swiper-slide img {
+    display: block;
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    margin-right: 10%;
+    margin-top: 10%;
+    border-radius: 50%;
+  }
+  
+ .servicos .swiper-slide .item  {
+        height: auto;
+        display: inline-block;
+        margin: 2px;
+
+    }
+
+.servicos .swiper-slide .imagem {
+    width: 30%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.servicos .swiper-slide .imagem h1 {
+    margin-top: 2%;
+    font-size: 180%;
+    text-align: center;
+}
+.servicos .swiper-slide .descricao {
+    width: 70%;
+    
+}
+.servicos .swiper-slide .descricao ul {
+    width: 70%;
+    list-style-type: none;
+}
+
+.descricao .outros  {
+    width: 50%;
+
+}
+.outros h1 {
+    margin-top: 8%;
+    padding-left: 1.5%;
+}
+.outros .topics {
+    margin-top: 2%;
+    padding-left: 5%;
+}
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+ .nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+ .nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    color: #fff;
+}
+
+.swiper-pagination-bullet {
+    background-color: #5c3017;
+
+}
+
+.topics {
+    font-size: 170%;
+    margin-left: 4%;
+    margin-top: 7%;
+    margin-right: 8%;
+    margin-bottom: 0.5%;
+}
+
+
+.topics li {
+    font-weight: bolder;
+}
+.floating-text {
+    padding: 1.5%;
+    position: absolute;
+    font-family: "Abhaya Libre";
+    z-index: 10;
+    font-weight: bold;
+    color: black;
+}
+.motivo {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+    min-height: auto;
+    width: 100%;
+}
+.motivo p {
+    font-size: 160%;
+    margin-left: 4%; 
+}
+
+
+.motivo .boxes {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.text-box {
+    flex: 1;
+}
+
+.text-box h1 {
+    padding: 2%;
+    font-size: 250%;
+}
+
+.text-box p {
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.areas_de_atuacao {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    background-color: #5c3017;
+    color: white;
+    min-height: auto;
+    width: 100%;
+}
+
+.areas_de_atuacao .container {
+    display: flex;
+    min-height: auto;
+    overflow: hidden;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.metades {
+    height: auto;
+    display: inline-block;
+    margin: 2px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+ .metade1 {
+    width: 50%;
+    align-items: center;
+}
+
+.metade2 {
+    width: 50%;
+    align-items: center;
+}
+.atuacao1 {
+    list-style-type:square;
+    font-size: 190%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.atuacao2 {
+    list-style-type:square;
+    font-size: 190%;
+    margin-top: 4%;
+
+}
+
+.areas_de_atuacao .container li {
+    margin-top: 0.5%;
+    margin-left: 6%;
+    font-weight: bolder;
+}
+
+.final {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+    min-height: auto;
+    width: 100%;
+}
+.final .entre_em_contato {
+    padding: 4%; 
+    font-size: 250%;
+}
+
+ .valores {
+    color: #B4816B;
+    margin-left: 4%;
+    font-size: 200%;
+}
+
+.final p {
+    font-family: "Libre Franklin";
+    margin-left: 4%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: start; /* Alinha os ícones à esquerda */
+    gap: 20px;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.social-button {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-button:hover {
+    transform: scale(1.2);
+    color: #B4816B; /* Altera a cor ao passar o mouse */
+}
+.final .mapa {
+    margin-left: 50%; 
+    margin-top: -25%;
+    padding-bottom: 4%;
+}
+.final .mapa p {
+    margin-left: 12%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #5c3017; 
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.floating-button i {
+    margin-left: 10px; 
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/*responsividade*/
+
+/*600 - min601 and  max768, min769 and max992, min993 and max1200*/
+
+/*>600*/
+
+@media (max-width: 600px) {
+    body {
+    background-image: url(/img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Abhaya Libre";
+
+}
+    .inicial {
+        font-size: 60%;
+        height: 30vh;
+    }
+    .inicial h2 {
+        font-size: 150%;
+        margin-top: 2%;
+    }
+    .titulo h1 {
+        margin-top: 6%;
+        font-size: 24px;
+    }
+
+    .inicial a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .apresentacao {
+        margin-top: 10vh;
+        font-size: 40%;
+    }
+    .apresentacao .swiper {
+        width: 100%;
+        height: auto;
+      }
+    
+    .apresentacao  .swiper-slide {
+        background: black;
+        color: white;
+        display: flex;
+        height: auto;
+        overflow: hidden;
+        justify-content: flex-end;
+    
+      }
+    
+    .apresentacao  .swiper-slide p {
+        font-size: 180%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 15%;
+      }
+    
+    .apresentacao .swiper-slide img {
+        display: block;
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: 15%;
+        text-align: center;
+      }
+      
+    .apresentacao .swiper-slide .item  {
+        height: auto;
+    
+            display: inline-block;
+            margin: 2px;
+        }
+    
+    .apresentacao .swiper-slide .imagem {
+        width: 30%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .apresentacao .swiper-slide .imagem h1 {
+        margin-top: 2%;
+        font-size: 180%;
+        text-align: center;
+    }
+    .imagem h4 {
+        font-size: 120%;
+    }
+    .apresentacao .swiper-slide .descricao {
+        width: 70%;
+        font-size: 80%;
+    }
+    .apresentacao  .swiper {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+    
+    .floating-text {
+        padding: 1.5%;
+        position: absolute;
+        font-family: "Abhaya Libre";
+        z-index: 10;
+        font-weight: bold;
+        color: black;
+    }
+    .areas_de_atuacao {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: #5c3017;
+        color: white;
+        height: 22vh;
+        width: 100%;
+        font-size: 40%;
+    }
+    
+    .areas_de_atuacao .container {
+        display: flex;
+        min-height: 22vh;
+        overflow: hidden;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .metades {
+        height: 22vh;
+        display: inline-block;
+        margin: 2px;
+        align-items: center;
+        width: 100%;
+    }
+     .metade1 {
+        width: 50%;
+        align-items: center;
+    }
+    
+    .metade2 {
+        width: 50%;
+        align-items: center;
+    }
+    .atuacao1 {
+        list-style-type:square;
+        font-size: 190%;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .atuacao2 {
+        list-style-type:square;
+        font-size: 190%;
+        margin-top: 4%;
+    
+    }
+    
+    .container li {
+        margin-top: 0.5%;
+        margin-left: 6%;
+        font-weight: bolder;
+    }
+
+
+
+    #final {
+        min-height: 19vh;
+    }
+    .final {
+
+        font-size: 50%;
+      }
+    .final .entre_em_contato {
+        padding: 3%; 
+        font-size: 230%;
+    }
+    .final .mapa {
+        align-self: flex-end;
+        margin-left: 55%;
+        min-height: 19vh;
+        max-width: 55%;
+    }
+    .final .valores {
+        color: #B4816B;
+        margin-left: 4%;
+        font-size: 140%;
+    }
+    
+    .final p {
+        font-family: "Libre Franklin";
+        margin-left: 4%;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: start; /* Alinha os ícones à esquerda */
+        gap: 20px;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    
+    .social-button {
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-button:hover {
+        transform: scale(1.2);
+        color: #B4816B; /* Altera a cor ao passar o mouse */
+    }
+    .final .mapa p {
+        margin-left: 1%;
+    }
+    .final iframe {
+        height: 12vh;
+        width: 43vw;
+    }
+
+    .motivo {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        min-height: auto;
+        width: 100%;
+    }
+    .motivo h2 {
+        font-size: 80%;
+    }
+    .motivo p {
+        font-size: 60%;
+        margin-left: 4%; 
+    }
+    
+    
+    .motivo .boxes {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-box {
+        flex: 1;
+    }
+    
+    .text-box h1 {
+        padding: 2%;
+        font-size: 90%;
+    }
+    
+    .text-box p {
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+    
+    .image-box {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .servicos .swiper-slide img {
+        display: block;
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        margin-right: 10%;
+        margin-top: 10%;
+        border-radius: 50%;
+      }
+     .nav-btn {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        transform: translateY(15px);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+     .nav-btn::after,
+    .nav-btn::before {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 180%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .servicos {
+        font-size: 33%;
+    }
+    .servicos p {
+        font-size: 210%;
+    }
+
+    .servicos .topics {
+        font-size: 210%;
+    }
+    
+}
+
+/* 601~768*/
+
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+    background-image: url(/img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Abhaya Libre";
+
+}
+    .inicial {
+        font-size: 70%;
+        height: 30vh;
+    }
+    .inicial h2 {
+        font-size: 170%;
+        margin-top: 2%;
+    }
+    .titulo h1 {
+        margin-top: 6%;
+        font-size: 24px;
+    }
+
+    .inicial a {
+        padding: 7px 14px;
+        font-size: 140%;
+    }
+    .apresentacao {
+        margin-top: 10vh;
+        font-size: 50%;
+    }
+    .apresentacao .swiper {
+        width: 100%;
+        min-height: auto;
+      }
+    
+    .apresentacao  .swiper-slide {
+        background: black;
+        color: white;
+        display: flex;
+        min-height: auto;
+        overflow: hidden;
+        justify-content: flex-end;
+        padding-bottom: 2%;
+      }
+    
+    .apresentacao  .swiper-slide p {
+        font-size: 190%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 15%;
+      }
+    
+    .apresentacao .swiper-slide img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 10%;
+      }
+      
+    .apresentacao .swiper-slide .item  {
+            height: auto;
+            display: inline-block;
+            margin: 2px;
+        }
+    
+    .apresentacao .swiper-slide .imagem {
+        width: 30%;
+        margin-top: 2%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .apresentacao .swiper-slide .imagem h1 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 200%;
+    }
+    .imagem h4 {
+        font-size: 160%;
+    }
+    .apresentacao .swiper-slide .descricao {
+        width: 70%;
+        font-size: 90%;
+    }
+    .apresentacao  .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*.servicos {
+        margin-top: 3%;
+        font-size: 90%;
+        align-items: center;
+    }
+     .servicos .swiper {
+        width: 100%;
+        min-height: auto;
+      }
+    
+     .servicos .swiper-slide {
+        background: whitesmoke;
+        color: black;
+        display: flex;
+        min-height: auto;
+        overflow: hidden;
+        justify-content: flex-end;
+    
+      }
+    
+    .servicos  .swiper-slide p {
+        font-size: 230%;
+        margin-top: 2%;
+        margin-left: -2%;
+        margin-right: 5%;
+        font-weight: lighter;
+        color: #181515;
+        padding-left: 6%;
+        text-indent: 5%;
+      }
+      
+    
+    .servicos .swiper-slide img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 10%;
+        margin-top: 10%;
+        border-radius: 50%;
+      }
+      
+     .servicos .swiper-slide .item  {
+            height: auto;
+            display: inline-block;
+            margin: 2px;
+        }
+    
+    .servicos .swiper-slide .imagem {
+        width: 30%;
+        align-items: right;
+    }
+    
+
+    .servicos .swiper-slide .descricao {
+        width: 70%;
+        
+    }
+    .descricao .outros  {
+        width: 50%;
+    
+    }
+    .outros h1 {
+        font-size: 14px;
+        margin-top: 8%;
+        padding-left: 1.5%;
+    }
+    .outros .topics {
+        font-size: 12px;
+        margin-top: 2%;
+        padding-left: 5%;
+    }
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+    */
+     .nav-btn {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        transform: translateY(15px);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+     .nav-btn::after,
+    .nav-btn::before {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 200%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .floating-text {
+        padding: 1.5%;
+        position: absolute;
+        font-family: "Abhaya Libre";
+        z-index: 10;
+        font-weight: bold;
+        font-size: 140%;
+        color: black;
+    }
+    .areas_de_atuacao {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: #5c3017;
+        color: white;
+        height: auto;
+        width: 100%;
+        font-size: 50%;
+    }
+    
+    .areas_de_atuacao .container {
+        display: flex;
+        min-height: 22vh;
+        overflow: hidden;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .metades {
+        height: 22vh;
+        display: inline-block;
+        margin: 2px;
+        align-items: center;
+        width: 100%;
+    }
+     .metade1 {
+        width: 50%;
+        align-items: center;
+    }
+    
+    .metade2 {
+        width: 50%;
+        align-items: center;
+    }
+    .atuacao1 {
+        list-style-type:square;
+        font-size: 190%;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .atuacao2 {
+        list-style-type:square;
+        font-size: 190%;
+        margin-top: 4%;
+    
+    }
+    
+    .container li {
+        margin-top: 0.5%;
+        margin-left: 6%;
+        font-weight: bolder;
+    }
+
+
+
+    #final {
+        min-height: 24vh;
+    }
+    .final {
+
+        font-size: 60%;
+      }
+    .final .entre_em_contato {
+        padding: 3%; 
+        font-size: 250%;
+    }
+    .final .mapa {
+        align-self: flex-end;
+        margin-left: 55%;
+        min-height: 24vh;
+        max-width: 55%;
+
+    }
+    .final .valores {
+        color: #B4816B;
+        margin-left: 4%;
+        font-size: 160%;
+    }
+    
+    .final p {
+        font-family: "Libre Franklin";
+        margin-left: 4%;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: start; /* Alinha os ícones à esquerda */
+        gap: 20px;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    
+    .social-button {
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-button:hover {
+        transform: scale(1.2);
+        color: #B4816B; /* Altera a cor ao passar o mouse */
+    }
+    .final .mapa p {
+        margin-left: 1%;
+    }
+    .final iframe {
+        height: 18vh;
+        width: 44vw;
+    }
+
+    .motivo {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        min-height: auto;
+        width: 100%;
+    }
+    .motivo h2 {
+        font-size: 110%;
+    }
+    .motivo p {
+        font-size: 90%;
+        margin-left: 4%; 
+    }
+    
+    
+    .motivo .boxes {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-box {
+        flex: 1;
+    }
+    
+    .text-box h1 {
+        padding: 2%;
+        font-size: 140%;
+    }
+    
+    .text-box p {
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+    
+    .image-box {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .servicos .swiper-slide img {
+        display: block;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        margin-right: 10%;
+        margin-top: 10%;
+        border-radius: 50%;
+      }
+     .nav-btn {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        transform: translateY(15px);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+     .nav-btn::after,
+    .nav-btn::before {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 180%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .servicos {
+        font-size: 44%;
+    }
+
+    .servicos .topics {
+        font-size: 220%;
+    }
+}
+
+/* min769 and max992 */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+    background-image: url(/img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Abhaya Libre";
+    font-size: 125%;
+
+}
+    .inicial {
+        font-size: 70%;
+        height: 30vh;
+    }
+    .inicial h2 {
+        font-size: 170%;
+        margin-top: 2%;
+    }
+    .titulo h1 {
+        margin-top: 6%;
+        font-size: 24px;
+    }
+
+    .inicial a {
+        padding: 8px 16px;
+        font-size: 160%;
+    }
+    .apresentacao {
+        margin-top: 10vh;
+        font-size: 55%;
+    }
+    .apresentacao .swiper {
+        width: 100%;
+        min-height: auto;
+      }
+    
+    .apresentacao  .swiper-slide {
+        background: black;
+        color: white;
+        display: flex;
+        min-height: auto;
+        overflow: hidden;
+        justify-content: flex-end;
+        padding-bottom: 2%;
+      }
+    
+    .apresentacao  .swiper-slide p {
+        font-size: 190%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 15%;
+      }
+    
+    .apresentacao .swiper-slide img {
+        display: block;
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 10%;
+      }
+      
+    .apresentacao .swiper-slide .item  {
+            height: auto;
+            display: inline-block;
+            margin: 2px;
+        }
+    
+    .apresentacao .swiper-slide .imagem {
+        width: 30%;
+        margin-top: 2%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .apresentacao .swiper-slide .imagem h1 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 200%;
+    }
+    .imagem h4 {
+        font-size: 160%;
+    }
+    .apresentacao .swiper-slide .descricao {
+        width: 70%;
+        font-size: 90%;
+    }
+    .apresentacao  .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .motivo {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        min-height: auto;
+        width: 100%;
+    }
+    .motivo h2 {
+        font-size: 110%;
+    }
+    .motivo p {
+        font-size: 90%;
+        margin-left: 4%; 
+    }
+    
+    
+    .motivo .boxes {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-box {
+        flex: 1;
+    }
+    
+    .text-box h1 {
+        padding: 2%;
+        font-size: 140%;
+    }
+    
+    .text-box p {
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+    
+    .image-box {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .servicos .swiper-slide img {
+        display: block;
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+        margin-right: 10%;
+        margin-top: 10%;
+        border-radius: 50%;
+      }
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 180%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .servicos {
+        font-size: 55%;
+    }
+
+    .servicos .topics {
+        font-size: 220%;
+    } 
+    .nav-btn {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        transform: translateY(15px);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+     .nav-btn::after,
+    .nav-btn::before {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 200%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .floating-text {
+        padding: 1.5%;
+        position: absolute;
+        font-family: "Abhaya Libre";
+        z-index: 10;
+        font-weight: bold;
+        font-size: 140%;
+        color: black;
+    }
+    .areas_de_atuacao {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: #5c3017;
+        color: white;
+        height: auto;
+        width: 100%;
+        font-size: 60%;
+    }
+    
+    .areas_de_atuacao .container {
+        display: flex;
+        min-height: 32vh;
+        overflow: hidden;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .metades {
+        height: 22vh;
+        display: inline-block;
+        margin: 2px;
+        align-items: center;
+        width: 100%;
+    }
+     .metade1 {
+        width: 50%;
+        align-items: center;
+    }
+    
+    .metade2 {
+        width: 50%;
+        align-items: center;
+    }
+    .atuacao1 {
+        list-style-type:square;
+        font-size: 190%;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .atuacao2 {
+        list-style-type:square;
+        font-size: 190%;
+        margin-top: 4%;
+    
+    }
+    
+    .container li {
+        margin-top: 0.5%;
+        margin-left: 6%;
+        font-weight: bolder;
+    }
+
+
+
+    #final {
+        min-height: 30vh;
+    }
+    .final {
+
+        font-size: 70%;
+      }
+    .final .entre_em_contato {
+        padding: 3%; 
+        font-size: 250%;
+    }
+    .final .mapa {
+        align-self: flex-end;
+        margin-left: 55%;
+        min-height: 30vh;
+        max-width: 55%;
+
+    }
+    .final .valores {
+        color: #B4816B;
+        margin-left: 4%;
+        font-size: 160%;
+    }
+    
+    .final p {
+        font-family: "Libre Franklin";
+        margin-left: 4%;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: start; /* Alinha os ícones à esquerda */
+        gap: 20px;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    
+    .social-button {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-button:hover {
+        transform: scale(1.2);
+        color: #B4816B; /* Altera a cor ao passar o mouse */
+    }
+    .final .mapa p {
+        margin-left: 1%;
+    }
+    .final iframe {
+        height: 21vh;
+        width: 44vw;
+    }
+}
+
+/*min 993px & max 1200px*/
+@media (min-width: 993px) and (max-width: 1200px) {
+    body {
+    background-image: url(/img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Abhaya Libre";
+    font-size: 135%;
+
+}
+    .inicial {
+        font-size: 70%;
+        height: 30vh;
+    }
+    .inicial h2 {
+        font-size: 170%;
+        margin-top: 2%;
+    }
+    .titulo h1 {
+        margin-top: 6%;
+        font-size: 24px;
+    }
+
+    .inicial a {
+        padding: 10px 20px;
+        font-size: 180%;
+    }
+    .apresentacao {
+        margin-top: 20vh;
+        font-size: 65%;
+    }
+    .apresentacao .swiper {
+        width: 100%;
+        min-height: auto;
+      }
+    
+    .apresentacao  .swiper-slide {
+        background: black;
+        color: white;
+        display: flex;
+        min-height: auto;
+        overflow: hidden;
+        justify-content: flex-end;
+        padding-bottom: 2%;
+      }
+    
+    .apresentacao  .swiper-slide p {
+        font-size: 190%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 15%;
+      }
+    
+    .apresentacao .swiper-slide img {
+        display: block;
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 10%;
+      }
+      
+    .apresentacao .swiper-slide .item  {
+            height: auto;
+            display: inline-block;
+            margin: 2px;
+        }
+    
+    .apresentacao .swiper-slide .imagem {
+        width: 30%;
+        margin-top: 2%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .apresentacao .swiper-slide .imagem h1 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 200%;
+    }
+    .imagem h4 {
+        font-size: 160%;
+    }
+    .apresentacao .swiper-slide .descricao {
+        width: 70%;
+        font-size: 90%;
+    }
+    .apresentacao  .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .motivo {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        min-height: auto;
+        width: 100%;
+    }
+    .motivo h2 {
+        font-size: 140%;
+    }
+    .motivo p {
+        font-size: 120%;
+        margin-left: 4%; 
+    }
+    
+    
+    .motivo .boxes {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-box {
+        flex: 1;
+    }
+    
+    .text-box h1 {
+        padding: 2%;
+        font-size: 140%;
+    }
+    
+    .text-box p {
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+    
+    .image-box {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .servicos .swiper-slide img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-right: 10%;
+        margin-top: 10%;
+        border-radius: 50%;
+      }
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 180%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .servicos {
+        font-size: 60%;
+    }
+
+    .servicos .topics {
+        font-size: 220%;
+    } 
+     .nav-btn {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        transform: translateY(15px);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+     .nav-btn::after,
+    .nav-btn::before {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .swiper-pagination-bullet {
+        background-color: #5c3017;
+    }
+    
+    .topics {
+        list-style-type:square;
+        font-size: 220%;
+        margin-left: 5%;
+        margin-top: 9%;
+        margin-right: 8%;
+    }
+    
+    .topics li {
+        font-weight: bolder;
+    }
+    .floating-text {
+        padding: 1.5%;
+        position: absolute;
+        font-family: "Abhaya Libre";
+        z-index: 10;
+        font-weight: bold;
+        font-size: 140%;
+        color: black;
+    }
+    .areas_de_atuacao {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-bottom: 2%;
+        background-color: #5c3017;
+        color: white;
+        height: auto;
+        width: 100%;
+        font-size: 60%;
+    }
+    
+    .areas_de_atuacao .container {
+        display: flex;
+        min-height: 32vh;
+        overflow: hidden;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .metades {
+        height: 40vh;
+        display: inline-block;
+        margin: 2px;
+        align-items: center;
+        width: 100%;
+    }
+     .metade1 {
+        width: 50%;
+        align-items: center;
+    }
+    
+    .metade2 {
+        width: 50%;
+        align-items: center;
+    }
+    .atuacao1 {
+        list-style-type:square;
+        font-size: 210%;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .atuacao2 {
+        list-style-type:square;
+        font-size: 210%;
+        margin-top: 4%;
+    
+    }
+    
+    .container li {
+        margin-top: 0.5%;
+        margin-left: 6%;
+        font-weight: bolder;
+    }
+
+
+
+    #final {
+        min-height: 45vh;
+    }
+    .final {
+
+        font-size: 80%;
+      }
+    .final .entre_em_contato {
+        padding: 3%; 
+        font-size: 250%;
+    }
+    .final .mapa {
+        align-self: flex-end;
+        margin-left: 55%;
+        min-height: 40vh;
+        max-width: 55%;
+
+    }
+    .final .valores {
+        color: #B4816B;
+        margin-left: 4%;
+        font-size: 160%;
+    }
+    
+    .final p {
+        font-family: "Libre Franklin";
+        margin-left: 4%;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: start; /* Alinha os ícones à esquerda */
+        gap: 20px;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    
+    .social-button {
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-button:hover {
+        transform: scale(1.2);
+        color: #B4816B; /* Altera a cor ao passar o mouse */
+    }
+    .final .mapa p {
+        margin-left: 1%;
+    }
+    .final iframe {
+        height: 26vh;
+        width: 44vw;
+    }
+}
